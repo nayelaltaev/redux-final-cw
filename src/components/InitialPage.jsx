@@ -30,6 +30,7 @@ const InitialPage = () => {
   return (
     <div className="initial-page">
       <Form
+        style={{ marginLeft: "230px" }}
         name="basic"
         labelCol={{
           span: 8,
@@ -46,7 +47,7 @@ const InitialPage = () => {
         autoComplete="off"
       >
         <Form.Item
-          label="Имя пользователя"
+          label="Введите свое имя"
           name="username"
           rules={[
             {
@@ -67,11 +68,15 @@ const InitialPage = () => {
         >
           <div>
             <Button
-              style={{ width: "100px", borderRadius: "25px" }}
+              style={{
+                marginLeft: "25px",
+                width: "130px",
+                borderRadius: "25px",
+              }}
               type="primary"
               htmlType="submit"
             >
-              Начать тест
+              Старт
             </Button>
           </div>
         </Form.Item>

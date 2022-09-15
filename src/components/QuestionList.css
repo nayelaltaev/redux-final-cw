@@ -1,16 +1,29 @@
-.input-wrapper{
-    display: flex;
-    flex-direction: column;
-    
+body {
+  /* font-family: serif; */
+  font-family: cursive;
 }
-.button{
-    padding: 20px;
-    margin-left: 200px;
-    width: 300px;
-    margin-bottom: 50px;
-    border-radius: 8px;
-    cursor: pointer;
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
 }
-.button:hover{
-  opacity: 0.7;
+.button {
+  margin-left: 200px;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: rgb(50, 145, 253);
+  font-size: 16px;
+  border: none;
+}
+.button:hover {
+  background-color: rgb(93, 173, 253);
+}
+
+.qa-container {
+  width: 800px;
+  margin-left: 400px;
 }
